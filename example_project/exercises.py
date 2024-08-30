@@ -18,3 +18,10 @@ session = Session()
 # Exercise 3
 
 # Exercise 4
+
+
+
+
+
+# Close the session
+session.close()

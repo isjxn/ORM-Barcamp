@@ -39,7 +39,7 @@ id: An integer that serves as the primary key.
 name: A string that represents the name of the course.
 
 Add Sample Courses:
-Add two courses to the table:
+Add atleast two courses to the table:
 - "Computer Science 101"
 - "History 201"
 
@@ -72,3 +72,21 @@ Retrieve and Print Enrollments:
 Query the database to retrieve all courses each student is enrolled in.
 Print the results using the following format:
 - "STUDENT_NAME is enrolled in COURSE_NAME."
+
+### Exercise Six
+Now that you've established a many-to-many relationship between students and courses, your last task is to perform more advanced operations using this relationship. You will be required to write queries that filter and retrieve specific data based on certain conditions.
+
+Find and Print Students Enrolled in a Specific Course:
+Write a query to find all students enrolled in the "Computer Science 101" course.
+Print the names of these students using the following format:
+- "Student enrolled in Computer Science 101: STUDENT_NAME."
+
+Count the Number of Courses Each Student is Enrolled In:
+Write a query that retrieves the total number of courses each student is enrolled in.
+Print the results using the following format:
+- "STUDENT_NAME is enrolled in COURSE_COUNT courses."
+
+Find Students Not Enrolled in Any Course:
+Write a query to find all students who are not enrolled in any course.
+Print their names using the following format:
+- "Student not enrolled in any course: STUDENT_NAME."

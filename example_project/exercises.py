@@ -19,6 +19,9 @@ session = Session()
 
 # Exercise 4
 
+# Exercise 5
+
+# Exercise 6
 
 
 

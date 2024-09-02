@@ -51,3 +51,5 @@ Print out each course using the following format:
 Instructions:
 - Look at the existing code in the repository for guidance on how to define tables / entities and work with the ORM.
 - You do not need to manually create the tables in the database. Focus on defining the Python entities, and the ORM will automatically create the corresponding tables in the database for you.
+
+### Exercise Five

@@ -53,3 +53,22 @@ Instructions:
 - You do not need to manually create the tables in the database. Focus on defining the Python entities, and the ORM will automatically create the corresponding tables in the database for you.
 
 ### Exercise Five
+Now that you have created the Course table, your next task is to establish a many-to-many relationship between students and courses. This will allow a student to be enrolled in multiple courses, and a course to have multiple students.
+
+Establish a Many-to-Many Relationship:
+Define a relationship between the Student and Course tables.
+You will need to create an association table that links students to courses. This table will typically have at least two columns:
+- student_id: A foreign key referencing the id of the Student table.
+- course_id: A foreign key referencing the id of the Course table.
+
+Modify the Student and Course Entities:
+Update the Student and Course entities to include the relationship using the ORM's relationship functionality.
+
+Add Sample Data:
+- Enroll "Linus Torvalds" in "Computer Science 101".
+- Enroll another student in "History 201".
+
+Retrieve and Print Enrollments:
+Query the database to retrieve all courses each student is enrolled in.
+Print the results using the following format:
+- "STUDENT_NAME is enrolled in COURSE_NAME."
